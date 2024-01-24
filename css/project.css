@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fix-clear{
+    clear: both;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+body{
+    font-family: serif;
+}
+/* start home */
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+.home .home-caption{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.home .home-caption p{
+    font-size: 23px;
+}
+.home .home-caption h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.home .home-caption button{
+    padding: 15px;
+    color: white;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.home .home-caption .btn1{
+background-color: #8e7754;
+border-width: 0;
+}
+.home .home-caption .btn2{
+background-color: transparent;
+border: white 2px solid;
+}
+.nav{
+    /* background-color: aqua; */
+}
+.nav .nav-img{
+/* background-color: black; */
+width: 13%;
+float: left;
+margin-top: 10px;
+}
+.nav .nav-img img{
+    width: 100%;
+}
+.nav-linkes{
+/* background-color: blueviolet; */
+}
+.nav-linkes ul{
+    float: right;
+    margin-top: 10px;
+
+}
+.nav-linkes ul li{
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+}
+.nav-linkes ul li a{
+    color: white;
+    text-decoration: none;
+}
+.sircle{
+    width: 35px;
+    height: 40px;
+    margin: auto;
+    border: white 2px solid;
+    border-radius: 40%;
+    
+}
+/* end home */
+/* start about */
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;}
+.about .about-img{
+    /* background-color: blueviolet; */
+    width: 40%;
+    float: left;
+
+}
+.about .about-img img{
+    width: 100%;
+}
+.about .about-caption{
+    /* background-color: lightpink; */
+    width: 50%;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #686871;
+    margin-right: 20px;
+}
+.about .about-caption p{
+    margin: 20px 0;
+
+}
+.about .about-caption h2{
+/* color: black; */
+}
+.about .about-caption .ul-about{
+    /* background-color: lightgreen; */
+    text-align: left;
+}
+.about .about-caption .ul-about li{
+    margin-top: 10px;
+}
+/* end about */
+/* start offer */
+.offer{
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.offer .offer-caption{
+    /* background-color: lightseagreen; */
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 50px 30px ;
+    color: #686871;
+}
+.offer .offer-caption h2{
+color: black;
+}
+.offer .offer-caption .p1{
+    margin: 30px 0px;
+}
+.offer .offer-img{
+    /* background-color: lightslategray; */
+    width: 40%;
+    float: right;
+}
+.offer .offer-img img{
+    width: 100%;
+}
+
+/* end offer  */
+/* start baking */
+.baking{
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;}
+.baking p{
+    margin: 10px 0;
+    color: #686871;
+}
+.meal img{
+    width: 100%;
+}
+.meal{
+    width: 33%;
+    text-align: center;
+    float: left;
+
+}
+.inner{
+    padding: 30px;
+}
+/* end baking */
+/* start map */
+.blog{
+color: #686871;
+text-align: left;
+
+}
+.blog h2{
+    color: black;
+    margin: 10px;
+}
+.blog p{
+    margin: 10px;
+}
+.blog li {
+padding: 3px;
+text-decoration: none;
+}
+.about-caption{
+    float: left;
+    width: 40%;
+}
+.blog-map{
+    float: right;
+    width: 40%;
+
+}
+.blog-map{
+    width: 40%;
+}
+/* end map  */
+/* start footer  */
+.footer{
+background-color: #403d38;
+color: #8b9696;
+padding: 20px;
+margin-top: 30px;
+}
+.footer h5{
+    color: white;
+}
+.footer p{
+    padding: 5px;
+}
+.contact-row{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+/* end footer  */
+/* start social */
+.social{
+    text-align: center;
+    padding: 20px;
+    background-color: #353330;
+    color: white;
+}
+.social img{
+    margin: 20px auto;
+}
+/* end social  */
